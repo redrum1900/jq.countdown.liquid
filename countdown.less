@@ -1,0 +1,166 @@
+@width:3px;
+@18width:18*@width;
+@color:#F28B33;
+
+
+
+.clock
+{
+	font-size:10px;
+	width:18*@width;
+	height:28*@width;
+	// border:1px solid ddd;
+	position:relative;
+	div
+	{
+		position: absolute;
+		-webkit-border-style:solid; 
+		-moz-border-style:solid; 
+		-ms-border-style:solid; 
+		border-style:solid; 
+
+	} 
+	.l,.r,.u,.d
+	{
+		width:0;
+		height:0;
+		overflow:hidden;
+	}
+	.v
+	{
+		width:0;
+		height:10*@width;
+		border-width:0 @width;
+		border-color:@color; 
+		-webkit-border-width:0 @width;
+		-webkit-border-color:@color; 
+		-moz-border-width:0 @width;
+		-moz-border-color:@color; 
+		-ms-border-width:0 @width;
+		-ms-border-color:@color; 
+		.u
+		{
+			-ms-border-style:dotted dotted solid dotted;
+			-ms-border-width:0 @width @width;
+			-ms-border-color:transparent transparent @color transparent;
+			-moz-border-style:dotted dotted solid dotted;
+			-moz-border-width:0 @width @width;
+			-moz-border-color:transparent transparent @color transparent;
+			-webkit-border-style:dotted dotted solid dotted;
+			-webkit-border-width:0 @width @width;
+			-webkit-border-color:transparent transparent @color transparent;
+			border-style:dotted dotted solid dotted;
+			border-width:0 @width @width;
+			border-color:transparent transparent @color transparent;
+			top:-@width;left:-@width;
+		}
+		.d
+		{
+			-ms-border-style:solid dotted dotted dotted;
+			-ms-border-width:@width @width 0 @width;
+			-ms-border-color:@color transparent transparent transparent;
+			-moz-border-style:solid dotted dotted dotted;
+			-moz-border-width:@width @width 0 @width;
+			-moz-border-color:@color transparent transparent transparent;
+			-webkit-border-style:solid dotted dotted dotted;
+			-webkit-border-width:@width @width 0 @width;
+			-webkit-border-color:@color transparent transparent transparent;
+			border-style:solid dotted dotted dotted;
+			border-width:@width @width 0 @width;
+			border-color:@color transparent transparent transparent;
+			left:-@width;
+			bottom:-@width;
+
+		}
+
+	}
+	.h
+	{
+		width:11*@width;
+		height:0;
+		-ms-border-width:@width 0;
+		-ms-border-color:@color;
+		-moz-border-width:@width 0;
+		-moz-border-color:@color;
+		-webkit-border-width:@width 0;
+		-webkit-border-color:@color;
+		border-width:@width 0;
+		border-color:@color;
+		.l
+		{
+			-ms-border-style:dotted solid dotted dotted;
+			-ms-border-width:@width @width @width 0;
+			-ms-border-color:transparent @color transparent transparent;
+			-moz-border-style:dotted solid dotted dotted;
+			-moz-border-width:@width @width @width 0;
+			-moz-border-color:transparent @color transparent transparent;
+			-webkit-border-style:dotted solid dotted dotted;
+			-webkit-border-width:@width @width @width 0;
+			-webkit-border-color:transparent @color transparent transparent;
+			border-style:dotted solid dotted dotted;
+			border-width:@width @width @width 0;
+			border-color:transparent @color transparent transparent;
+			top:-@width;
+			left:-@width;
+		}
+		.r
+		{
+			-ms-border-style:dotted dotted dotted solid;
+			-ms-border-width:@width 0 @width @width;
+			-ms-border-color:transparent transparent transparent @color;
+			-moz-border-style:dotted dotted dotted solid;
+			-moz-border-width:@width 0 @width @width;
+			-moz-border-color:transparent transparent transparent @color;
+			-webkit-border-style:dotted dotted dotted solid;
+			-webkit-border-width:@width 0 @width @width;
+			-webkit-border-color:transparent transparent transparent @color;
+			border-style:dotted dotted dotted solid;
+			border-width:@width 0 @width @width;
+			border-color:transparent transparent transparent @color;
+			top:-@width;
+			right:-@width;
+		}
+	}
+
+	.n1{left:@width;top:3*@width;}
+	.n2{left:@width;top:15*@width;}
+	.n4{left:15*@width;top:15*@width;}
+	.n5{left:15*@width;top:3*@width;}
+	.n6{top:0.8*@width;left:3.6*@width;}
+	.n3{top:25*@width;left:3.6*@width;}
+	.n7{top:13*@width;left:3.6*@width;}
+}
+.c1{
+	.n1,.n2,.n3,.n6,.n7{display:none}
+}
+.c2{
+	.n1,.n4{display:none}
+}
+.c3{
+	.n1,.n2{display:none}
+}
+.c4{
+	.n2,.n3,.n6{display:none}
+}
+.c5{
+	.n5,.n2,{display:none}
+}
+.c6{
+	.n5{display:none}
+}
+.c7{
+	.n1,.n2,.n3,.n7{display:none}
+}
+.c8{
+}
+.c9{
+	.n2{display:none}
+}
+.c0{
+	.n7{display:none}
+}
+
+.left
+{
+	float: left;
+}
