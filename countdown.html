@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div id="sss"></div>
-		<div id="myclock">
+		<div id="myclock" starttime="10" >
 		 <!-- <div id="h1" class="clock c0 left">
 		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
 		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
@@ -29,6 +29,7 @@
 		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
 		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
 		 </div>
+		 <div class="middle"> <div class="d"></div><div class="d"></div></div>
 		 <div id="m1" class="clock c0 left">
 		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
 		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
@@ -47,6 +48,7 @@
 		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
 		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
 		 </div>
+		 <div class="middle"> <div class="d"></div><div class="d"></div></div>
 		 <div id="s1" class="clock c0 left">
 		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
 		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
@@ -72,24 +74,13 @@
 	</body>
 	<script type="text/javascript">
 
-	$("#myclock").setTime(
-		{
-			starttime:1000,
-			endtime:996,
-			callback:function(ele){
-				console.log(ele);
-				$(ele).remove();
-			}
-		});
-	$("#sss").setTime(
-		{
-			starttime:2000,
-			endtime:1990,
-			callback:function(ele){
-				console.log(ele);
-				$(ele).remove();
-			}
-		});
+	$("#myclock").setTime({
+	callback:function(ele){
+		// var p = $(ele).parent().parent();
+		// $(p).find(".d").remove();
+		// $(p).find(".cbiao").show();
+	}
+})
 
 	</script>
 </html>

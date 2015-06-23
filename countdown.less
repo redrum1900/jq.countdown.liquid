@@ -1,8 +1,24 @@
-@width:3px;
+@width:1px;
 @18width:18*@width;
-@color:#F28B33;
+@color:#DF535E;
 
+.middle
+{
+	width:2*@width;
+	height:28*@width;
+	float: left;
+	margin-right: 2*@width;
+	position: relative;
+	.d{
+		// position: absolute;
+		display: block;
+		width:2*@width;
+		height:2*@width;
+		margin-top: 8.5*@width;
+		background-color: @color;
+	}
 
+}
 
 .clock
 {
@@ -163,4 +179,5 @@
 .left
 {
 	float: left;
+	margin-right: 2*@width;
 }

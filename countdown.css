@@ -1,7 +1,21 @@
+.middle {
+  width: 2px;
+  height: 28px;
+  float: left;
+  margin-right: 2px;
+  position: relative;
+}
+.middle .d {
+  display: block;
+  width: 2px;
+  height: 2px;
+  margin-top: 8.5px;
+  background-color: #df535e;
+}
 .clock {
   font-size: 10px;
-  width: 54px;
-  height: 84px;
+  width: 18px;
+  height: 28px;
   position: relative;
 }
 .clock div {
@@ -21,119 +35,119 @@
 }
 .clock .v {
   width: 0;
-  height: 30px;
-  border-width: 0 3px;
-  border-color: #f28b33;
-  -webkit-border-width: 0 3px;
-  -webkit-border-color: #f28b33;
-  -moz-border-width: 0 3px;
-  -moz-border-color: #f28b33;
-  -ms-border-width: 0 3px;
-  -ms-border-color: #f28b33;
+  height: 10px;
+  border-width: 0 1px;
+  border-color: #df535e;
+  -webkit-border-width: 0 1px;
+  -webkit-border-color: #df535e;
+  -moz-border-width: 0 1px;
+  -moz-border-color: #df535e;
+  -ms-border-width: 0 1px;
+  -ms-border-color: #df535e;
 }
 .clock .v .u {
   -ms-border-style: dotted dotted solid dotted;
-  -ms-border-width: 0 3px 3px;
-  -ms-border-color: transparent transparent #f28b33 transparent;
+  -ms-border-width: 0 1px 1px;
+  -ms-border-color: transparent transparent #df535e transparent;
   -moz-border-style: dotted dotted solid dotted;
-  -moz-border-width: 0 3px 3px;
-  -moz-border-color: transparent transparent #f28b33 transparent;
+  -moz-border-width: 0 1px 1px;
+  -moz-border-color: transparent transparent #df535e transparent;
   -webkit-border-style: dotted dotted solid dotted;
-  -webkit-border-width: 0 3px 3px;
-  -webkit-border-color: transparent transparent #f28b33 transparent;
+  -webkit-border-width: 0 1px 1px;
+  -webkit-border-color: transparent transparent #df535e transparent;
   border-style: dotted dotted solid dotted;
-  border-width: 0 3px 3px;
-  border-color: transparent transparent #f28b33 transparent;
-  top: -3px;
-  left: -3px;
+  border-width: 0 1px 1px;
+  border-color: transparent transparent #df535e transparent;
+  top: -1px;
+  left: -1px;
 }
 .clock .v .d {
   -ms-border-style: solid dotted dotted dotted;
-  -ms-border-width: 3px 3px 0 3px;
-  -ms-border-color: #f28b33 transparent transparent transparent;
+  -ms-border-width: 1px 1px 0 1px;
+  -ms-border-color: #df535e transparent transparent transparent;
   -moz-border-style: solid dotted dotted dotted;
-  -moz-border-width: 3px 3px 0 3px;
-  -moz-border-color: #f28b33 transparent transparent transparent;
+  -moz-border-width: 1px 1px 0 1px;
+  -moz-border-color: #df535e transparent transparent transparent;
   -webkit-border-style: solid dotted dotted dotted;
-  -webkit-border-width: 3px 3px 0 3px;
-  -webkit-border-color: #f28b33 transparent transparent transparent;
+  -webkit-border-width: 1px 1px 0 1px;
+  -webkit-border-color: #df535e transparent transparent transparent;
   border-style: solid dotted dotted dotted;
-  border-width: 3px 3px 0 3px;
-  border-color: #f28b33 transparent transparent transparent;
-  left: -3px;
-  bottom: -3px;
+  border-width: 1px 1px 0 1px;
+  border-color: #df535e transparent transparent transparent;
+  left: -1px;
+  bottom: -1px;
 }
 .clock .h {
-  width: 33px;
+  width: 11px;
   height: 0;
-  -ms-border-width: 3px 0;
-  -ms-border-color: #f28b33;
-  -moz-border-width: 3px 0;
-  -moz-border-color: #f28b33;
-  -webkit-border-width: 3px 0;
-  -webkit-border-color: #f28b33;
-  border-width: 3px 0;
-  border-color: #f28b33;
+  -ms-border-width: 1px 0;
+  -ms-border-color: #df535e;
+  -moz-border-width: 1px 0;
+  -moz-border-color: #df535e;
+  -webkit-border-width: 1px 0;
+  -webkit-border-color: #df535e;
+  border-width: 1px 0;
+  border-color: #df535e;
 }
 .clock .h .l {
   -ms-border-style: dotted solid dotted dotted;
-  -ms-border-width: 3px 3px 3px 0;
-  -ms-border-color: transparent #f28b33 transparent transparent;
+  -ms-border-width: 1px 1px 1px 0;
+  -ms-border-color: transparent #df535e transparent transparent;
   -moz-border-style: dotted solid dotted dotted;
-  -moz-border-width: 3px 3px 3px 0;
-  -moz-border-color: transparent #f28b33 transparent transparent;
+  -moz-border-width: 1px 1px 1px 0;
+  -moz-border-color: transparent #df535e transparent transparent;
   -webkit-border-style: dotted solid dotted dotted;
-  -webkit-border-width: 3px 3px 3px 0;
-  -webkit-border-color: transparent #f28b33 transparent transparent;
+  -webkit-border-width: 1px 1px 1px 0;
+  -webkit-border-color: transparent #df535e transparent transparent;
   border-style: dotted solid dotted dotted;
-  border-width: 3px 3px 3px 0;
-  border-color: transparent #f28b33 transparent transparent;
-  top: -3px;
-  left: -3px;
+  border-width: 1px 1px 1px 0;
+  border-color: transparent #df535e transparent transparent;
+  top: -1px;
+  left: -1px;
 }
 .clock .h .r {
   -ms-border-style: dotted dotted dotted solid;
-  -ms-border-width: 3px 0 3px 3px;
-  -ms-border-color: transparent transparent transparent #f28b33;
+  -ms-border-width: 1px 0 1px 1px;
+  -ms-border-color: transparent transparent transparent #df535e;
   -moz-border-style: dotted dotted dotted solid;
-  -moz-border-width: 3px 0 3px 3px;
-  -moz-border-color: transparent transparent transparent #f28b33;
+  -moz-border-width: 1px 0 1px 1px;
+  -moz-border-color: transparent transparent transparent #df535e;
   -webkit-border-style: dotted dotted dotted solid;
-  -webkit-border-width: 3px 0 3px 3px;
-  -webkit-border-color: transparent transparent transparent #f28b33;
+  -webkit-border-width: 1px 0 1px 1px;
+  -webkit-border-color: transparent transparent transparent #df535e;
   border-style: dotted dotted dotted solid;
-  border-width: 3px 0 3px 3px;
-  border-color: transparent transparent transparent #f28b33;
-  top: -3px;
-  right: -3px;
+  border-width: 1px 0 1px 1px;
+  border-color: transparent transparent transparent #df535e;
+  top: -1px;
+  right: -1px;
 }
 .clock .n1 {
-  left: 3px;
-  top: 9px;
+  left: 1px;
+  top: 3px;
 }
 .clock .n2 {
-  left: 3px;
-  top: 45px;
+  left: 1px;
+  top: 15px;
 }
 .clock .n4 {
-  left: 45px;
-  top: 45px;
+  left: 15px;
+  top: 15px;
 }
 .clock .n5 {
-  left: 45px;
-  top: 9px;
+  left: 15px;
+  top: 3px;
 }
 .clock .n6 {
-  top: 2.4px;
-  left: 10.8px;
+  top: 0.8px;
+  left: 3.6px;
 }
 .clock .n3 {
-  top: 75px;
-  left: 10.8px;
+  top: 25px;
+  left: 3.6px;
 }
 .clock .n7 {
-  top: 39px;
-  left: 10.8px;
+  top: 13px;
+  left: 3.6px;
 }
 .c1 .n1,
 .c1 .n2,
@@ -176,4 +190,5 @@
 }
 .left {
   float: left;
+  margin-right: 2px;
 }
