@@ -2,6 +2,10 @@
 
 使用方法介绍
 
+[demo地址](http://redrum1900.github.io/examples/countdown/countdown.html)
+
+自己以前写过的一个小插件，弄了新博客，就无耻的发上来啦
+
 HTML部分
 ```
     <div id="myclock"  starttime='10' endtime='0'/>
