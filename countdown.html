@@ -9,73 +9,14 @@
 		<script type="text/javascript" src="countdown.js"></script>
 	</head>
 	<body>
-		<div id="sss"></div>
-		<div id="myclock" starttime="10" >
-		 <!-- <div id="h1" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div>
-		 <div id="h2" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div>
-		 <div class="middle"> <div class="d"></div><div class="d"></div></div>
-		 <div id="m1" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div>
-		 <div id="m2" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div>
-		 <div class="middle"> <div class="d"></div><div class="d"></div></div>
-		 <div id="s1" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div>
-		 <div id="s2" class="clock c0 left">
-		  <div class="v n1"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n2"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n3"><div class="l"></div><div class="r"></div></div>
-		  <div class="v n4"><div class="u"></div><div class="d"></div></div>
-		  <div class="v n5"><div class="u"></div><div class="d"></div></div>
-		  <div class="h n6"><div class="l"></div><div class="r"></div></div>
-		  <div class="h n7"><div class="l"></div><div class="r"></div></div>
-		 </div> -->
+		<div id="myclock"  starttime='10' endtime='0'>
 		</div>
-		<button id="start">开始</button>
-		<button id="stop">停止</button>
-		<button id="re">继续</button>
 	</body>
 	<script type="text/javascript">
 
 	$("#myclock").setTime({
 	callback:function(ele){
+		//回调函数
 		// var p = $(ele).parent().parent();
 		// $(p).find(".d").remove();
 		// $(p).find(".cbiao").show();
